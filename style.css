@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: #eee;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8rem;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px;
+    width: 100vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    background: white;
+
+}
+
+.flex-item {
+    height: 60px;
+
+}
+
+.container section {
+    padding: 0.5rem;
+}
+
+.container.reverse {
+    flex-direction: row-reverse;
+    
+}
+
+.flex-item:nth-child(1) {
+    background:rgba(100,0,0,1); flex: 0;
+}
+
+
+.flex-item:nth-child(2) {
+    background-color: rgb(106, 13, 13);
+    background:rgba(100,20,0,1); flex: 1;
+}
+
+
+.flex-item:nth-child(3) {
+    background-color: rgb(125, 45, 45);
+    background:rgba(100,40,0,1); flex: 1; 
+}
+
+.flex-item:nth-child(4) {
+    background:rgba(100,60,0,1); flex: 2;
+}
+
+
+.flex-item:nth-child(5) {
+    background:rgba(100,80,0,1); flex: 3;
+}
+
+
+.flex-item:nth-child(6) {
+    background:rgba(100,100,0,1); flex: 5; 
+}
+
+.flex-item:nth-child(7) {
+    background:rgba(100,120,0,1); flex: 8;
+}
+
+
+.flex-item:nth-child(8) {
+    background-color: rgb(106, 13, 13);
+    background:rgba(100,140,0,1); flex: 13;
+}
+
+
+.flex-item:nth-child(9) {
+    background:rgba(100,160,0,1); flex: 21;
+}
+
+
+.flex-item:nth-child(10) {
+    background:rgba(100,180,0,1); flex: 34; 
+}
+
